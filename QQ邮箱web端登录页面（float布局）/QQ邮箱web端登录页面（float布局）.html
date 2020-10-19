@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>qq邮箱</title>
+	<style>
+		*{
+			padding: 0px;
+			margin: 0px;
+		}
+		html,body,.main{
+			width: 100%;
+			height: 100%;
+		}
+		.header{
+			width: 100%;
+			height: 60px;
+			box-sizing: border-box;
+			border-top: 1px solid #D6DFEA;
+			border-bottom: 1px solid #D6DFEA;
+			background-color: #EFF4FA;
+		}
+		.footer{
+			width: 100%;
+			height: 40px;
+			box-sizing: border-box;
+			border-top: 1px solid #D6DFEA;
+			border-bottom: 1px solid #D6DFEA;
+			background-color: #EFF4FA;
+			text-align: center;
+		}
+		.content{
+			width: 70%;
+			height: calc(100% - 100px);
+			/*background-color: pink;*/
+			margin: 0 auto;
+			overflow: hidden;
+		}
+		.content-left{
+			width: 60%;
+			/*background-color: teal;*/
+			height: 70%;
+			margin-top: 10%;
+			background-image: url(./imgs/7A834050-478B-4d68-896E-78CD41F81BBC.png);
+			background-size: 100% 100%;
+			float: left;
+		}
+		.content-right{
+			width: 30%;
+			height: 60%;
+			margin-top: 10%;
+			border: 1px solid #ddd;
+			float: right;
+			margin-right: 5%;
+			border-radius: 5px;
+			overflow: hidden;
+		}
+		.title{
+			font-size: 20px;
+			color: #6F95C8;
+		}
+		p{
+			line-height: 28px;
+			margin-left: 10%;
+		}
+		.content-right-top{
+			width: 100%;
+			height: 14%;
+			background-color: #f9fbfe;
+			border-bottom: 1px solid #a0b1cd;
+		}
+		.content-right-bottom{
+			width: 100%;
+			height: 86%;
+			background-color: #fff;
+			border-bottom: none;
+			text-align: center;
+		}
+		.header_logo{
+			width: 182px;
+			height: 35px;
+			margin-top: 12px;
+			margin-left: 17px;
+			background-image: url(./imgs/qqmail_logo.png);
+			background-size: 182px 35px;
+			background-repeat: no-repeat;
+			display: inline-block;
+		}
+		a{	
+			text-decoration: none;
+			font-size: 12px;
+			color: #225592;
+		}
+		a:hover{
+			text-decoration: underline;
+		}
+		.header_link{
+			display: inline-block;
+			overflow:hidden;
+			margin-top: 14px;
+    		padding-right: 40px;
+    		line-height: 30px;
+    		float: right;
+		}
+		.wechatLogin{
+			float: left;
+			width: 50%;
+			font-size: 16px;
+			line-height: 50px;
+			cursor: pointer;
+			text-align: center;
+			color: black;
+		}
+		.qqLogin{
+			float: right;
+			width: 50%;
+			font-size: 16px;
+			line-height: 50px;
+			cursor: pointer;
+			text-align: center;
+			color: #999;
+		}
+		.wxcode{
+			width: 180px;
+    		height: 180px;
+    		margin-top: 25px;
+    		margin-left: auto;
+    		margin-right: auto;
+    		/*vertical-align: top;*/
+    		border-radius: 2px;
+    		border: none;
+		}
+		.pText{
+			text-align: center;
+			line-height: 18px;
+			font-size: 13px;
+		}
+		.checkbox{
+			text-align: center;
+			cursor: pointer;
+			font-size: 14px;
+			line-height: 18px;
+			margin-top: 25px;
+		}
+		.tips{
+			font-size: 12px;
+    		color: #959da6;
+    		text-align: center;
+    		margin-top: 30px;
+		}
+		.footer-link{
+			display: inline-block;
+			overflow:hidden;
+			vertical-align: center;
+    		line-height: 36px;
+    		margin-left: auto;
+    		margin-right: auto;
+    		color: #b6b6b6;
+    		font-size: 12px;
+		}
+		.info{
+			margin-top: 6px;
+			font-size: 12px;
+		}
+		.gray{
+			color: #868686;
+			font-size: 12px;
+			line-height: 24px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="header">
+			<a href="https://mail.qq.com">
+				<div class="header_logo"></div>
+			</a>
+
+			<div class="header_link">
+				<a href="https://w.mail.qq.com/cgi-bin/loginpage?f=xhtml">基本版&nbsp;&nbsp;|</a>
+				<a href="https://en.mail.qq.com">&nbsp;English&nbsp;|</a>
+				<a href="https://app.mail.qq.com/" target="_blank">&nbsp;手机版&nbsp;|	</a>
+				<a href="https://exmail.qq.com?referrer=index_top" target="_blank">&nbsp;企业邮箱</a>
+			</div>
+
+		</div>
+
+		<div class="content">
+			<div class="content-left">
+				<p class="title">QQ邮箱，常联系！</p>
+				<p>你对自由的向往</p>
+				<p>没有什么能够阻挡</p>
+				<p>天马行空的生涯</p>
+				<p>你的心了无牵挂</p>
+				<p class="info">摘自《蓝莲花》</p>
+				<p style="margin-top: -10px;"><a class="gray" href="http://y.qq.com/#type=singer&amp;mid=00235pCx2tYjlq" target="_blank">听更多许巍音乐</a></p>
+			</div>
+			<div class="content-right">
+				<div class="content-right-top">
+					<div class="wechatLogin">微信登录</div>
+					<div class="qqLogin">QQ登录</div>
+				</div>
+
+				<div class="content-right-bottom">
+					<img src="./imgs/code.jpg" alt="图片找不到了" class="wxcode">
+					<div class="pText">
+						<span>请使用微信扫描二维码登录</span>
+					</div>
+					<div class="checkbox">
+						<input type="checkbox">下次自动登录
+					</div>
+					<div class="tips">微信与QQ帐号的邮箱数据不互通</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer">
+			<div class="footer-link">
+				<a href="https://www.tencent.com" target="_blank">关于腾讯</a>
+				&nbsp;|&nbsp;
+				<a href="https://mail.qq.com/cgi-bin/readtemplate?check=false&amp;t=mail_clause" target="_blank">服务条款</a>
+				&nbsp;|&nbsp;
+				<a href="https://privacy.qq.com/" target="_blank">隐私政策</a>
+				&nbsp;|&nbsp;
+				<a href="https://kf.qq.com/product/email.html" target="_blank">客服中心</a>
+				&nbsp;|&nbsp;
+				<a href="https://mail.qq.com/zh_CN/contact_us.html" target="_blank">联系我们</a>
+				&nbsp;|&nbsp;
+				<a href="https://service.mail.qq.com" target="_blank">帮助中心</a>
+				&nbsp;|&nbsp;
+				<span class="gray">©1998 - 2020 Tencent Inc. All Rights Reserved.</span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
